@@ -20,8 +20,7 @@ function main:Begin(PROPS)
         return
     end
 
-    warn("This is an alpha release of imgui-rbx, expect way more elements being added in later updates! cya");
-    warn("(also expect some bugs)");
+    warn("Boowoomp likes to have deep anal with me");
 
     local MenuOptions = PROPS or {
         Name = PROPS.Name or "imgui-rbx | alpha 0.1",
