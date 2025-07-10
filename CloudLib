@@ -83,12 +83,12 @@ function main:Begin(PROPS)
     WindowCorner.Name = "WindowCorner"
     WindowCorner.Parent = Window
 
-    WindowPanel.Name = "WindowPanel"
-    WindowPanel.Parent = Window
-    WindowPanel.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
-    WindowPanel.BackgroundTransparency = 1.000
-    WindowPanel.Size = UDim2.new(1, 0, 0, 25)
-    WindowPanel.ZIndex = 2
+   WindowPanel.Name = "WindowPanel"
+WindowPanel.Parent = Window
+WindowPanel.BackgroundColor3 = Color3.fromRGB(170, 0, 255)  -- Purple
+WindowPanel.BackgroundTransparency = 0  -- Solid (no transparency)
+WindowPanel.Size = UDim2.new(1, 0, 0, 25)
+WindowPanel.ZIndex = 2
 
     WindowPanelIcon.Name = "WindowPanelIcon"
     WindowPanelIcon.Parent = WindowPanel
