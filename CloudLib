@@ -20,7 +20,7 @@ function main:Begin(PROPS)
         return
     end
 
-    warn("Boowoomp likes to have deep anal with me");
+    warn("Harmless Client on top yo");
 
     local MenuOptions = PROPS or {
         Name = PROPS.Name or "imgui-rbx | alpha 0.1",
@@ -85,7 +85,7 @@ function main:Begin(PROPS)
 
     WindowPanel.Name = "WindowPanel"
     WindowPanel.Parent = Window
-    WindowPanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    WindowPanel.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
     WindowPanel.BackgroundTransparency = 1.000
     WindowPanel.Size = UDim2.new(1, 0, 0, 25)
     WindowPanel.ZIndex = 2
