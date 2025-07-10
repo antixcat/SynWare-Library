@@ -98,7 +98,7 @@ WindowPanel.ZIndex = 2
     WindowPanelIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
     WindowPanelIcon.Size = UDim2.new(0.999999881, 0, 1, 0)
     WindowPanelIcon.ZIndex = 2
-    WindowPanelIcon.Image = "rbxassetid://13034670565"
+    WindowPanelIcon.Image = ""
     WindowPanelIcon.ScaleType = Enum.ScaleType.Tile
 
     MinimiseButton.Name = "MinimiseButton"
