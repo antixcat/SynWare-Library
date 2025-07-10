@@ -120,7 +120,7 @@ WindowPanel.ZIndex = 2
     MinimiseButtonIcon.BackgroundTransparency = 1.000
     MinimiseButtonIcon.Position = UDim2.new(0.5, 0, 0.5, 2)
     MinimiseButtonIcon.Size = UDim2.new(0, 12, 0, 12)
-    MinimiseButtonIcon.Image = "rbxassetid://13034875812"
+    MinimiseButtonIcon.Image = ""
 
     WindowPanelIconPadding.Name = "WindowPanelIconPadding"
     WindowPanelIconPadding.Parent = WindowPanelIcon
