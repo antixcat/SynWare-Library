@@ -274,13 +274,13 @@ WindowPanel.ZIndex = 2
 
         TextBox_Element.Name = "TextBox_Element"
         TextBox_Element.Parent = WindowElements
-        TextBox_Element.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TextBox_Element.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
         TextBox_Element.BackgroundTransparency = 1.000
         TextBox_Element.Size = UDim2.new(1, 0, 0, 23)
 
         TextBox_ElementName.Name = "TextBox_ElementName"
         TextBox_ElementName.Parent = TextBox_Element
-        TextBox_ElementName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TextBox_ElementName.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
         TextBox_ElementName.BackgroundTransparency = 1.000
         TextBox_ElementName.Position = UDim2.new(2.21000004, 0, 0, 0)
         TextBox_ElementName.Size = UDim2.new(1, 0, 0.0299999993, 20)
@@ -1109,7 +1109,7 @@ WindowPanel.ZIndex = 2
 
             MenuBarItem.Name = MenuName
             MenuBarItem.Parent = MenuBar
-            MenuBarItem.BackgroundColor3 = Color3.fromRGB(44, 46, 48)
+            MenuBarItem.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
             MenuBarItem.BorderSizePixel = 0
             MenuBarItem.Size = UDim2.new(0, (MenuBarItem.TextBounds.X + 5), 1, 0)
             MenuBarItem.FontFace = GetFont()
