@@ -203,7 +203,7 @@ WindowPanel.ZIndex = 2
 
     AWindowSep.Name = "AWindowSep"
     AWindowSep.Parent = WindowElementContainer
-    AWindowSep.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    AWindowSep.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
     AWindowSep.BackgroundTransparency = 1.000
     AWindowSep.Position = UDim2.new(0.00609756075, 0, 0, 0)
     AWindowSep.Size = UDim2.new(0, 567, 0, 25)
@@ -286,7 +286,7 @@ WindowPanel.ZIndex = 2
         TextBox_ElementName.Size = UDim2.new(1, 0, 0.0299999993, 20)
         TextBox_ElementName.FontFace = GetFont()
         TextBox_ElementName.Text = InputTextOptions.Name
-        TextBox_ElementName.TextColor3 = Color3.fromRGB(255, 255, 255)
+        TextBox_ElementName.TextColor3 = Color3.fromRGB(170, 0, 2555)
         TextBox_ElementName.TextSize = 17.000
         TextBox_ElementName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -772,7 +772,7 @@ WindowPanel.ZIndex = 2
 
         Color_ElementBlue.Name = "Color_ElementBlue"
         Color_ElementBlue.Parent = Color_Element
-        Color_ElementBlue.BackgroundColor3 = Color3.fromRGB(41, 74, 122)
+        Color_ElementBlue.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
         Color_ElementBlue.BorderColor3 = Color3.fromRGB(74, 74, 83)
         Color_ElementBlue.Size = UDim2.new(0, 60, 1, 0)
 
