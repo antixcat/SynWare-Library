@@ -20,7 +20,7 @@ function main:Begin(PROPS)
         return
     end
 
-    warn("Harmless Client on top yo");
+    warn("Boowoomp likes to have deep anal with me");
 
     local MenuOptions = PROPS or {
         Name = PROPS.Name or "imgui-rbx | alpha 0.1",
@@ -72,7 +72,7 @@ function main:Begin(PROPS)
     Window.Name = "Window"
     Window.Parent = ImGui
     Window.Active = true
-    Window.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    Window.BackgroundColor3 = Color3.fromRGB(21, 22, 23)
     Window.BackgroundTransparency = 0.050
     Window.ClipsDescendants = true
     Window.Position = UDim2.new(0.283211678, 0, 0.155285195, 0)
@@ -83,28 +83,28 @@ function main:Begin(PROPS)
     WindowCorner.Name = "WindowCorner"
     WindowCorner.Parent = Window
 
-   WindowPanel.Name = "WindowPanel"
-WindowPanel.Parent = Window
-WindowPanel.BackgroundColor3 = Color3.fromRGB(170, 0, 255)  -- Purple
-WindowPanel.BackgroundTransparency = 0  -- Solid (no transparency)
-WindowPanel.Size = UDim2.new(1, 0, 0, 25)
-WindowPanel.ZIndex = 2
+    WindowPanel.Name = "WindowPanel"
+    WindowPanel.Parent = Window
+    WindowPanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    WindowPanel.BackgroundTransparency = 1.000
+    WindowPanel.Size = UDim2.new(1, 0, 0, 25)
+    WindowPanel.ZIndex = 2
 
     WindowPanelIcon.Name = "WindowPanelIcon"
     WindowPanelIcon.Parent = WindowPanel
     WindowPanelIcon.AnchorPoint = Vector2.new(0.5, 0.5)
-    WindowPanelIcon.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    WindowPanelIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     WindowPanelIcon.BackgroundTransparency = 1.000
     WindowPanelIcon.Position = UDim2.new(0.5, 0, 0.5, 0)
     WindowPanelIcon.Size = UDim2.new(0.999999881, 0, 1, 0)
     WindowPanelIcon.ZIndex = 2
-    WindowPanelIcon.Image = ""
+    WindowPanelIcon.Image = "rbxassetid://13034670565"
     WindowPanelIcon.ScaleType = Enum.ScaleType.Tile
 
     MinimiseButton.Name = "MinimiseButton"
     MinimiseButton.Parent = WindowPanelIcon
     MinimiseButton.AnchorPoint = Vector2.new(0.5, 0.5)
-    MinimiseButton.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    MinimiseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     MinimiseButton.BackgroundTransparency = 1.000
     MinimiseButton.Position = UDim2.new(0, 13, 0.5, 0)
     MinimiseButton.Size = UDim2.new(0.0452961661, 0, 1, 0)
@@ -116,11 +116,11 @@ WindowPanel.ZIndex = 2
     MinimiseButtonIcon.Name = "MinimiseButtonIcon"
     MinimiseButtonIcon.Parent = MinimiseButton
     MinimiseButtonIcon.AnchorPoint = Vector2.new(0.5, 0.5)
-    MinimiseButtonIcon.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    MinimiseButtonIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     MinimiseButtonIcon.BackgroundTransparency = 1.000
     MinimiseButtonIcon.Position = UDim2.new(0.5, 0, 0.5, 2)
     MinimiseButtonIcon.Size = UDim2.new(0, 12, 0, 12)
-    MinimiseButtonIcon.Image = ""
+    MinimiseButtonIcon.Image = "rbxassetid://13034875812"
 
     WindowPanelIconPadding.Name = "WindowPanelIconPadding"
     WindowPanelIconPadding.Parent = WindowPanelIcon
@@ -129,7 +129,7 @@ WindowPanel.ZIndex = 2
     WindowDisplayName.Name = "WindowDisplayName"
     WindowDisplayName.Parent = WindowPanelIcon
     WindowDisplayName.AnchorPoint = Vector2.new(0.5, 0.5)
-    WindowDisplayName.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    WindowDisplayName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     WindowDisplayName.BackgroundTransparency = 1.000
     WindowDisplayName.Position = UDim2.new(0.5, 0, 0.5, 0)
     WindowDisplayName.Size = UDim2.new(1, 0, 1, 0)
@@ -169,7 +169,7 @@ WindowPanel.ZIndex = 2
 
     WindowElementContainer.Name = "WindowElementContainer"
     WindowElementContainer.Parent = Window
-    WindowElementContainer.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    WindowElementContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     WindowElementContainer.BackgroundTransparency = 1.000
     WindowElementContainer.Size = UDim2.new(1, 0, 1, 0)
 
@@ -177,7 +177,7 @@ WindowPanel.ZIndex = 2
     WindowElements.Parent = WindowElementContainer
     WindowElements.Active = true
     WindowElements.AnchorPoint = Vector2.new(0.5, 0.5)
-    WindowElements.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    WindowElements.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     WindowElements.BackgroundTransparency = 1.000
     WindowElements.BorderSizePixel = 0
     WindowElements.Position = UDim2.new(0.5, 0, 0.54285717, 0)
@@ -203,7 +203,7 @@ WindowPanel.ZIndex = 2
 
     AWindowSep.Name = "AWindowSep"
     AWindowSep.Parent = WindowElementContainer
-    AWindowSep.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+    AWindowSep.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     AWindowSep.BackgroundTransparency = 1.000
     AWindowSep.Position = UDim2.new(0.00609756075, 0, 0, 0)
     AWindowSep.Size = UDim2.new(0, 567, 0, 25)
@@ -214,12 +214,12 @@ WindowPanel.ZIndex = 2
         local Label_Element = Instance.new("TextLabel")
         Label_Element.Name = "Label_Element"
         Label_Element.Parent = WindowElements
-        Label_Element.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+        Label_Element.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         Label_Element.BackgroundTransparency = 1.000
         Label_Element.Size = UDim2.new(1, 0, 0, 20)
         Label_Element.FontFace = GetFont()
         Label_Element.Text = TextDisplay
-        Label_Element.TextColor3 = Color3.fromRGB(170, 0, 255)
+        Label_Element.TextColor3 = Color3.fromRGB(255, 255, 255)
         Label_Element.TextSize = 17.000
         Label_Element.TextXAlignment = Enum.TextXAlignment.Left
     end
@@ -231,13 +231,13 @@ WindowPanel.ZIndex = 2
 
         Button_Element.Name = "Button_Element"
         Button_Element.Parent = WindowElements
-        Button_Element.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+        Button_Element.BackgroundColor3 = Color3.fromRGB(41, 74, 122)
         Button_Element.BorderColor3 = Color3.fromRGB(74, 74, 83)
         Button_Element.Position = UDim2.new(0, 0, 0.0833333358, 0)
         Button_Element.Size = UDim2.new(0, 21, 0, 23)
         Button_Element.FontFace = GetFont()
         Button_Element.Text = TextDisplay
-        Button_Element.TextColor3 = Color3.fromRGB(170, 0, 255)
+        Button_Element.TextColor3 = Color3.fromRGB(255, 255, 255)
         Button_Element.TextSize = 17.000
 
         Button_ElementPadding.Name = "Button_ElementPadding"
@@ -274,19 +274,19 @@ WindowPanel.ZIndex = 2
 
         TextBox_Element.Name = "TextBox_Element"
         TextBox_Element.Parent = WindowElements
-        TextBox_Element.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+        TextBox_Element.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         TextBox_Element.BackgroundTransparency = 1.000
         TextBox_Element.Size = UDim2.new(1, 0, 0, 23)
 
         TextBox_ElementName.Name = "TextBox_ElementName"
         TextBox_ElementName.Parent = TextBox_Element
-        TextBox_ElementName.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+        TextBox_ElementName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         TextBox_ElementName.BackgroundTransparency = 1.000
         TextBox_ElementName.Position = UDim2.new(2.21000004, 0, 0, 0)
         TextBox_ElementName.Size = UDim2.new(1, 0, 0.0299999993, 20)
         TextBox_ElementName.FontFace = GetFont()
         TextBox_ElementName.Text = InputTextOptions.Name
-        TextBox_ElementName.TextColor3 = Color3.fromRGB(170, 0, 2555)
+        TextBox_ElementName.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextBox_ElementName.TextSize = 17.000
         TextBox_ElementName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -772,7 +772,7 @@ WindowPanel.ZIndex = 2
 
         Color_ElementBlue.Name = "Color_ElementBlue"
         Color_ElementBlue.Parent = Color_Element
-        Color_ElementBlue.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+        Color_ElementBlue.BackgroundColor3 = Color3.fromRGB(41, 74, 122)
         Color_ElementBlue.BorderColor3 = Color3.fromRGB(74, 74, 83)
         Color_ElementBlue.Size = UDim2.new(0, 60, 1, 0)
 
@@ -1109,7 +1109,7 @@ WindowPanel.ZIndex = 2
 
             MenuBarItem.Name = MenuName
             MenuBarItem.Parent = MenuBar
-            MenuBarItem.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+            MenuBarItem.BackgroundColor3 = Color3.fromRGB(44, 46, 48)
             MenuBarItem.BorderSizePixel = 0
             MenuBarItem.Size = UDim2.new(0, (MenuBarItem.TextBounds.X + 5), 1, 0)
             MenuBarItem.FontFace = GetFont()
